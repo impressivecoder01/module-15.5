@@ -12,3 +12,11 @@ abc = 33;
 console.log(abc);
 numbers[3] = 30;
 console.log(numbers)
+//--------------------practice
+const n = [3,44,56,745,356,77,543,22,2,11,2365,77];
+n[3]= 7777;
+console.log(n)
+const book = ['node', 'js', 'react', 'mongoDB'];
+const found = book.includes('jss')
+console.log(found, 'true')
+console.log(Array.isArray(abc))
